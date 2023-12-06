@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-DemoToStackOverflow-4e2b361d-8940-43e5-bb20-616f93c74127</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DemoToStackOverflow.Client\DemoToStackOverflow.Client.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0" />
+            <PackageReference Include="Syncfusion.Blazor.Grid" Version="23.2.7" />
+    <PackageReference Include="Syncfusion.Blazor.Navigations" Version="23.2.7" />
+    <PackageReference Include="Syncfusion.Blazor.Themes" Version="23.2.7" />
+  </ItemGroup>
+
+  
+
+</Project>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoToStackOverflow", "DemoToStackOverflow\DemoToStackOverflow.csproj", "{EC3592E2-5467-4D81-B83C-8DC03E6245A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoToStackOverflow.Client", "DemoToStackOverflow.Client\DemoToStackOverflow.Client.csproj", "{D51A1AA1-F1EF-4C68-86B7-F75BDA6D7FC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC3592E2-5467-4D81-B83C-8DC03E6245A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC3592E2-5467-4D81-B83C-8DC03E6245A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC3592E2-5467-4D81-B83C-8DC03E6245A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC3592E2-5467-4D81-B83C-8DC03E6245A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D51A1AA1-F1EF-4C68-86B7-F75BDA6D7FC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D51A1AA1-F1EF-4C68-86B7-F75BDA6D7FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D51A1AA1-F1EF-4C68-86B7-F75BDA6D7FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D51A1AA1-F1EF-4C68-86B7-F75BDA6D7FC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFBB85A7-231C-4AFB-8C29-D94FC9DCFC09}
+	EndGlobalSection
+EndGlobal
